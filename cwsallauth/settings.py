@@ -170,3 +170,4 @@ EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 # EMAIL_FILE_PATH = BASE_DIR / 'emails'
 # You are trying to divide a string by string. To join two parts of a path do this:
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'emails')
+ALLOWED_HOSTS = ['*']
